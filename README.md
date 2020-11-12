@@ -37,6 +37,9 @@ $ git clone https://github.com/leonardopigatto/docker-laravel.git
 # Acessa a pasta
 $ cd docker-laravel
 
+# Remove o arquivo .gitkeep da pasta src
+$ rm -f src/.gitkeep
+
 # Constroi e reconstroi os containers
 $ sudo docker-compose build app
 
